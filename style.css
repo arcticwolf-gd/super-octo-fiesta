@@ -8,7 +8,7 @@ body {
 .hero-footer {
   background-color: #1f2937;
 }
-
+/* Header Section */
 .header {
   font-size: 18px;
   color: #f9faf8;
@@ -24,7 +24,6 @@ body {
   font-size: 24px;
   color: #f9faf8;
   font-weight: 800;
-  
 }
 
 .header-links {
@@ -39,22 +38,24 @@ ul {
   padding: 0;
 }
 
+/* Removes underlines from all links */
 a {
   text-decoration: none;
 }
 
+/* Hero Section */
 .hero-image {
   width: 450px;
   height: auto;
 }
 
-. .hero-left {
+.hero-left {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
   align-items: flex-start;
 }
-/* don't forget the padding for all the elements so they have their own space */
+
 .hero-right {
   display: flex;
   justify-content: flex-end;
@@ -88,10 +89,10 @@ a {
   border-radius: 10px;
   width: 100px;
 }
-
+/* Second Section */
 .second-section {
-margin-top: 50px;
-margin-bottom: 150px;
+  margin-top: 50px;
+  margin-bottom: 150px;
 }
 
 h2 {
@@ -102,7 +103,7 @@ h2 {
   padding-bottom: 25px;
 }
 
-.container {
+.second-section-container {
   display: flex;
   justify-content: center;
   gap: 52px;
@@ -125,6 +126,7 @@ h2 {
   margin-bottom: 25px;
 }
 
+/* Quote Section */
 .quote-section {
   display: flex;
   background-color: #e5e7eb;
@@ -152,6 +154,7 @@ h2 {
   font-weight: 700;
 }
 
+/* Call to action Section */
 .cta-body {
   margin-top: 150px;
   margin-bottom: 150px;
@@ -164,7 +167,6 @@ h2 {
   justify-content: space-between;
   background-color: #3882f6;
   padding: 100px;
-  /* make it autowidth */
   width: 60%;
   height: 40%;
   align-items: center;
@@ -175,7 +177,6 @@ h2 {
 .cta-left {
   display: flex;
   flex-direction: column;
-  align-items: ;
 }
 
 .cta-right {
